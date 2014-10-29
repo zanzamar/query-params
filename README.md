@@ -13,12 +13,14 @@ Methods:
 
 Example:
 
-	require([
-		"queryParams"
-	],
-	function( queryParams ) {
-		console.log( queryParams.get( "my-param" ) );
-	});
+```javacript
+require([
+	"queryParams"
+],
+function( queryParams ) {
+	console.log( queryParams.get( "my-param" ) );
+});
+```
 
 ### Tools Utilized
 
