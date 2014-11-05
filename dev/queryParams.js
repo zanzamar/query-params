@@ -34,7 +34,7 @@ populateParams: function() {
 
 // returns an individual query parameter based upon name.
 get: function( name ) {
-	return this.getParams[ name ];
+	return this.getParams()[ name ];
 },
 
 // returns an individual query parameter based upon name.
